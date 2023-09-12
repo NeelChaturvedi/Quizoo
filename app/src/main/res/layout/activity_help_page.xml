@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimg"
+    tools:context=".HelpPageActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Developers"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="65sp"
+        android:src="@drawable/neel"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name1"
+        android:layout_below="@id/textView2"
+        android:layout_marginStart="150dp"
+        android:textSize="23sp"
+        android:layout_marginTop="105sp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="140sp"
+        android:text="@string/email1"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="15sp"
+        android:src="@drawable/syash"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name2"
+        android:layout_below="@id/textView4"
+        android:layout_marginStart="170dp"
+        android:textSize="23sp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="5sp"
+        android:text="@string/email2"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:width="120dp"
+        android:background="#A8C0DC"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+
+
+</RelativeLayout>

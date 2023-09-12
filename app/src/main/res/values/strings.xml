@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quizoo</string>
+    <string name="Enter_name">Enter your name</string>
+    <string name="start">START</string>
+    <string name="help">HELP</string>
+    <string name="Developers">Developers</string>
+    <string name="name1">Niladri Chaturvedi</string>
+    <string name="email1">niladrichaturvedi469@gmail.com</string>
+    <string name="name2">Shriyash Shukla</string>
+    <string name="email2">harishukla797@gmail.com</string>
+    <string name="back">BACK</string>
+    <string name="helloname">Hello </string>
+    <string name="nxtq">NEXT QUESTION</string>
+    <string name="quit">QUIT</string>
+    <string name="your_score">Your Score</string>
+    <string name="result">Result</string>
+    <string name="cans">Correct Answer :</string>
+    <string name="restart">RESTART</string>
+</resources>

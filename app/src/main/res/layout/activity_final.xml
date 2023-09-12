@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimg"
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/result"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/c_ans"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:textSize="28sp"
+        android:textAlignment="gravity"
+        android:background="#98D577"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/w_ans"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/c_ans"
+        android:layout_marginTop="25dp"
+        android:textSize="28sp"
+        android:textAlignment="gravity"
+        android:background="#D57777"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/f_ans"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/w_ans"
+        android:layout_marginTop="25dp"
+        android:textSize="28sp"
+        android:textAlignment="gravity"
+        android:background="#FDCF7C"
+        android:text="" />
+
+    <Button
+        android:id="@+id/resBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/f_ans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#A8C0DC"
+        android:text="@string/restart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+
+</RelativeLayout>
